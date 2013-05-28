@@ -1,52 +1,52 @@
 % This package designed and commented in russian koi8-r encoding.
 %
-% Лицензия GNU GPL v2 и совместимые
+% п⌡п╦я├п╣п╫п╥п╦я▐ GNU GPL v2 п╦ я│п╬п╡п╪п╣я│я┌п╦п╪я▀п╣
 %
-% Автор - Алексей Томин, с помощью списка рассылки latex-gost-request@ice.ru
-% Все вопросы, замечания и пожелания сюда: mailto:alxt@yandex.ru
+% п░п╡я┌п╬я─ - п░п╩п╣п╨я│п╣п╧ п╒п╬п╪п╦п╫, я│ п©п╬п╪п╬я┴я▄я▌ я│п©п╦я│п╨п╟ я─п╟я│я│я▀п╩п╨п╦ latex-gost-request@ice.ru
+% п▓я│п╣ п╡п╬п©я─п╬я│я▀, п╥п╟п╪п╣я┤п╟п╫п╦я▐ п╦ п©п╬п╤п╣п╩п╟п╫п╦я▐ я│я▌п╢п╟: mailto:alxt@yandex.ru
 %
-% Дальнейшая разработка и поддержка - Михаил Конник,
-% связаться можно по адресу mydebianblog@gmail.com
+% п■п╟п╩я▄п╫п╣п╧я┬п╟я▐ я─п╟п╥я─п╟п╠п╬я┌п╨п╟ п╦ п©п╬п╢п╢п╣я─п╤п╨п╟ - п°п╦я┘п╟п╦п╩ п п╬п╫п╫п╦п╨,
+% я│п╡я▐п╥п╟я┌я▄я│я▐ п╪п╬п╤п╫п╬ п©п╬ п╟п╢я─п╣я│я┐ mydebianblog@gmail.com
 %
 \ProvidesPackage{G7-32}[2003/07/07 v1.00 Titles for GOST 7.32-2001]
 
-%стандартные части
-\newcommand\Executors{%список исполнителей
+%я│я┌п╟п╫п╢п╟я─я┌п╫я▀п╣ я┤п╟я│я┌п╦
+\newcommand\Executors{%я│п©п╦я│п╬п╨ п╦я│п©п╬п╩п╫п╦я┌п╣п╩п╣п╧
  \chapter*{\CYRS\cyrp\cyri\cyrs\cyro\cyrk~%
            \cyri\cyrs\cyrp\cyro\cyrl\cyrn\cyri\cyrt\cyre\cyrl\cyre\cyr\cyrishrt}%
 }
-\newcommand\Referat{%реферат
+\newcommand\Referat{%я─п╣я└п╣я─п╟я┌
  \chapter*{\CYRR\cyre\cyrf\cyre\cyrr\cyra\cyrt}%
 }
-\addto\captionsrussian{%содержание
+\addto\captionsrussian{%я│п╬п╢п╣я─п╤п╟п╫п╦п╣
  \def\contentsname{%
   \CYRS\cyro\cyrd\cyre\cyrr\cyrzh\cyra\cyrn\cyri\cyre}%
 }
-\newcommand\NormRefs{%нормативные ссылки
+\newcommand\NormRefs{%п╫п╬я─п╪п╟я┌п╦п╡п╫я▀п╣ я│я│я▀п╩п╨п╦
  \chapter*{\CYRN\cyro\cyrr\cyrm\cyra\cyrt\cyri\cyrv\cyrn\cyrery\cyre~%
            \cyrs\cyrs\cyrery\cyrl\cyrk\cyri}%
 }
-\newcommand\Defines{%определения
+\newcommand\Defines{%п╬п©я─п╣п╢п╣п╩п╣п╫п╦я▐
  \chapter*{\CYRO\cyrp\cyrr\cyre\cyrd\cyre\cyrl\cyre\cyrn\cyri\cyrya}%
 }
-\newcommand\Abbreviations{%обозначения и сокращения
+\newcommand\Abbreviations{%п╬п╠п╬п╥п╫п╟я┤п╣п╫п╦я▐ п╦ я│п╬п╨я─п╟я┴п╣п╫п╦я▐
  \chapter*{\CYRO\cyrb\cyro\cyrz\cyrn\cyra\cyrch\cyre\cyrn\cyri\cyrya~\cyri~%
            \cyrs\cyro\cyrk\cyrr\cyra\cyrshch\cyre\cyrn\cyri\cyrya}%
 }
-\newcommand\Introduction{%введение
+\newcommand\Introduction{%п╡п╡п╣п╢п╣п╫п╦п╣
  \chapter{\CYRV\cyrv\cyre\cyrd\cyre\cyrn\cyri\cyre}%
 }
-\newcommand\Conclusion{%заключение
+\newcommand\Conclusion{%п╥п╟п╨п╩я▌я┤п╣п╫п╦п╣
  \chapter{\CYRZ\cyra\cyrk\cyrl\cyryu\cyrch\cyre\cyrn\cyri\cyre}%
 }
-\addto\captionsrussian{%список использованных источников
+\addto\captionsrussian{%я│п©п╦я│п╬п╨ п╦я│п©п╬п╩я▄п╥п╬п╡п╟п╫п╫я▀я┘ п╦я│я┌п╬я┤п╫п╦п╨п╬п╡
  \def\bibname{%
   \CYRS\cyrp\cyri\cyrs\cyro\cyrk~
   \cyri\cyrs\cyrp\cyro\cyrl\cyrsftsn\cyrz\cyro\cyrv\cyra\cyrn\cyrn\cyrery\cyrh~
   \cyri\cyrs\cyrt\cyro\cyrch\cyrn\cyri\cyrk\cyro\cyrv}%
 }
 
-%Элементы оформления титульной страницы
+%п╜п╩п╣п╪п╣п╫я┌я▀ п╬я└п╬я─п╪п╩п╣п╫п╦я▐ я┌п╦я┌я┐п╩я▄п╫п╬п╧ я│я┌я─п╟п╫п╦я├я▀
 \newcommand\Nir@UdkName{\CYRU\CYRD\CYRK}
 
 \newcommand\Nir@No{%
@@ -68,7 +68,7 @@
  \CYRR\CYRA\CYRB\CYRO\CYRT\CYRE%
 }}
 
-\newcommand\Nir@AnnOtchet{ %отчёт аннотационный!?
+\newcommand\Nir@AnnOtchet{ %п╬я┌я┤?я┌ п╟п╫п╫п╬я┌п╟я├п╦п╬п╫п╫я▀п╧!?
 }
 
 \newcommand\Nir@MainBegin{%
@@ -82,12 +82,12 @@
  \cyro\cyrr\cyrg\cyra\cyrn\cyri\cyrz\cyra\cyrc\cyri\cyri%
 }
 
-\newcommand\Nir@StageNo{ % номер этапа работ
+\newcommand\Nir@StageNo{ % п╫п╬п╪п╣я─ я█я┌п╟п©п╟ я─п╟п╠п╬я┌
 }
 
-\newcommand\Nir@StageTitle{ % заголовок этапа работ
+\newcommand\Nir@StageTitle{ % п╥п╟пЁп╬п╩п╬п╡п╬п╨ я█я┌п╟п©п╟ я─п╟п╠п╬я┌
 }
-\newcommand\Nir@StageType{ % вид отчёта
+\newcommand\Nir@StageType{ % п╡п╦п╢ п╬я┌я┤?я┌п╟
 }
 
 
@@ -154,13 +154,13 @@
  \linespread{\Gost@LineSpread}\normalsize
 }
 
-%Эти команды нужно вызвать для корректного определения титульной страницы
-\newcommand\NirStage[3]{\renewcommand\Nir@StageNo{#1}\renewcommand\Nir@StageType{#2}\renewcommand\Nir@StageTitle{#3}}%%virens added: номер госрегистрации
-\newcommand\NirIsAnnotacion[1]{\renewcommand\Nir@AnnOtchet{#1}} %%Если отчёт аннотационный
+%п╜я┌п╦ п╨п╬п╪п╟п╫п╢я▀ п╫я┐п╤п╫п╬ п╡я▀п╥п╡п╟я┌я▄ п╢п╩я▐ п╨п╬я─я─п╣п╨я┌п╫п╬пЁп╬ п╬п©я─п╣п╢п╣п╩п╣п╫п╦я▐ я┌п╦я┌я┐п╩я▄п╫п╬п╧ я│я┌я─п╟п╫п╦я├я▀
+\newcommand\NirStage[3]{\renewcommand\Nir@StageNo{#1}\renewcommand\Nir@StageType{#2}\renewcommand\Nir@StageTitle{#3}}%%virens added: п╫п╬п╪п╣я─ пЁп╬я│я─п╣пЁп╦я│я┌я─п╟я├п╦п╦
+\newcommand\NirIsAnnotacion[1]{\renewcommand\Nir@AnnOtchet{#1}} %%п∙я│п╩п╦ п╬я┌я┤?я┌ п╟п╫п╫п╬я┌п╟я├п╦п╬п╫п╫я▀п╧
 \newcommand\NirOrgLongName[1]{\renewcommand\Nir@OrgLongName{#1}}
 \newcommand\NirBoss[2]{\renewcommand\Nir@BossPost{#1}\renewcommand\Nir@BossName{#2}}
 \newcommand\NirYear[1]{\renewcommand\Nir@Year{#1}}
 \newcommand\NirManager[2]{\renewcommand\Nir@ManagerPost{#1}\renewcommand\Nir@ManagerName{#2}}
-\newcommand\NirTown[1]{\renewcommand\Nir@Town{#1}}%%virens added: указываем город написания отчёта
-\newcommand\NirUdk[1]{\renewcommand\Nir@UdkName{#1}}%%virens added: для изменения УДК в тексте документа
-\newcommand\NirGosNo[1]{\renewcommand\Nir@No{#1}}%%virens added: номер госрегистрации
+\newcommand\NirTown[1]{\renewcommand\Nir@Town{#1}}%%virens added: я┐п╨п╟п╥я▀п╡п╟п╣п╪ пЁп╬я─п╬п╢ п╫п╟п©п╦я│п╟п╫п╦я▐ п╬я┌я┤?я┌п╟
+\newcommand\NirUdk[1]{\renewcommand\Nir@UdkName{#1}}%%virens added: п╢п╩я▐ п╦п╥п╪п╣п╫п╣п╫п╦я▐ пёп■п  п╡ я┌п╣п╨я│я┌п╣ п╢п╬п╨я┐п╪п╣п╫я┌п╟
+\newcommand\NirGosNo[1]{\renewcommand\Nir@No{#1}}%%virens added: п╫п╬п╪п╣я─ пЁп╬я│я─п╣пЁп╦я│я┌я─п╟я├п╦п╦
