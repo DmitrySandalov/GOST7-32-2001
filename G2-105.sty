@@ -1,4 +1,4 @@
-% This package designed and commented in russian koi8-r encoding.
+% This package designed and commented in russian utf8 encoding.
 %
 % Лицензия GNU GPL v2 и совместимые
 %
@@ -14,7 +14,7 @@
 %  footmisc.sty для сносок снизу и нумерации на каждой странице
 %  amssymb      для русских "меньше или равно" "больше или равно"
 %  leqno.clo    формулы правильно
-%  caption2     оформление заголовков риснуков и таблиц
+%  caption     оформление заголовков риснуков и таблиц
 %  icomma       запятая в формулах
 %  longtable    многостраничные таблицы
 
@@ -27,13 +27,13 @@
 \newcommand\Gost@LineSpread{1.3}
 \DeclareOption{usehyperref}{\@usehyperreftrue}
 \DeclareOption{usepscyr}{\@usepscyrtrue}
-\DeclareOption{koi8-r}{\renewcommand\Gost@encoding{koi8-r}}
+\DeclareOption{utf8}{\renewcommand\Gost@encoding{utf8}}
 \DeclareOption{cp1251}{\renewcommand\Gost@encoding{cp1251}}
 \DeclareOption{cp866} {\renewcommand\Gost@encoding{cp866} }
 \DeclareOption{utf8}{\renewcommand\Gost@encoding{utf8}}
 \DeclareOption{econommode}{\newcommand\Gost@LineSpread{1.3}\erroqweqwe}
 
-\ExecuteOptions{a4paper,14pt,final,koi8-r}
+\ExecuteOptions{a4paper,14pt,final,utf8}
 \ProcessOptions
 
 %стиль страницы
